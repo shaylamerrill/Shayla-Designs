@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>svg test</title>
+<style>
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    display: table;
+}
+
+.wrapper { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+text {
+    fill: #B41F24;
+    animation: animate4 2s;
+    
+
+}
+@keyframes animate4 {
+    0% {
+        fill-opacity: 0;
+    }
+}
+
+circle {
+    fill:none;
+    animation: animate3 .75s;
+    animation-delay: 1.4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: ease-in-out;
+    animation-iteration-count: 1;
+
+}
+@keyframes animate3 {
+    0% {
+        opacity: 0%;}
+    100% {
+        opacity: 100%; fill: #B41F24;}
+}
+
+
+.st2 {
+    stroke: #B41F24;
+    stroke-dasharray: 1200;
+    animation: animate2 1.5s;
+    
+}
+@keyframes animate2 {
+    0% {
+        stroke-dashoffset: -1200;
+    }
+}
+   
+.st0 {
+    stroke: #233D7B ;
+    stroke-dasharray: 1800;
+    animation: animate 1.5s cubic-bezier(.17,.67,.83,.67)
+
+}
+@keyframes animate {
+    0% {
+        stroke-dashoffset: 1800;}
+}
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+    <div>shit</div>
+    <div>stuff</div>
+
+    <div class="wrapper">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 426 266.72" style="enable-background:new 0 0 426 266.72;" xml:space="preserve">
+    <style type="text/css">
+        .st0{fill:none;stroke:#233D7B;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}
+        .circle{fill:#none;}
+        .st2{fill:none;stroke:#B41F24;stroke-width:2;stroke-miterlimit:10;}
+        .st3{font-family:'HelveticaNeue-Bold';}
+        .st4{font-size:19px;}
+    </style>
+    <g>
+        <g>
+            <path class="st0" d="M360.78,175.11c0.34-1.93,21.11-6.68,27.26,12.21c4.59,14.11,10.6,27.64,5.56,43c-1.18,3.61-2.52,4.47-6,5.01
+                c-13.86,2.14-27.68,4.59-41.42,7.4c-2.7,0.55-5.43,2.83-7.35,5.02c-6.04,6.85-22.35,12.29-23.58,10.2
+                c-1.23-2.09-2.31-8.3-2.09-12.25c0.23-4.08,0.87-17.42-0.42-17.37c-2.07,0.08-5.5,1.85-5.86,3.46
+                c-1.71,7.79-7.15,10.25-13.87,12.68c-3.34,1.21-5.84,5.59-7.98,9c-2.82,4.5-5.48-1.26-10.77,1.68c-8.09,4.5-10.21-0.27-11.95-8.65
+                c-3.34-16.08-14.75-16.39-20.88-28.72c-3.77-7.57-5.19-16.46-6.73-24.93c-0.76-4.17-0.87-6.68-6.18-6.8
+                c-32.47-0.73-64.93-1.85-97.4-2.79c-10.66-0.31-21.36-1.06-31.98-0.46c-6.11,0.34-13.12,5.97-18.95,4.8
+                c-5.82-1.17-3.19-7.22-16.75-6.59c-16.23-0.41-32.46-1.04-48.69-1.72c-6.25-0.26-8.65-3.09-7.12-9.01
+                c7.71-29.75,15.67-59.43,23.45-89.17c1.26-4.82,4.62-5.03,8.57-4.85c26.67,1.17,53.33,2.35,80,3.39
+                c39.44,1.54,78.87,3.49,118.32,3.92c6.31,0.07,13.95-5.69,18.77-10.81c7.54-8.01,16.38-12.73,26.56-14.9
+                c6.54-1.39,9.45,2.46,11.36,8.65c2.27,7.31,0.67,17.11,10.58,20.29c2.72,0.87,6.23,0.96,8.89,0.01c3.97-1.42,5.76,0.05,5.37,3.4
+                c-0.34,2.94-1.57,6.78-3.74,8.27c-3.87,2.66-8.69,4.02-13.23,5.58c-3.17,1.09-9.81,1.05-10.44,2.53c-0.64,1.48,3.25,3.65,3.37,5.8
+                s-20.91,7.18-13.8,20.31c2.32,4.28-5.5,6.04-5.17,7.99c0.98,5.7,6.73,8.27,11.42,8.14c4.81-0.14,9.73,1.37,14.5,2.57
+                c5.74,1.45,7.41,5.51,6.78,11.19c-0.15,1.36,1.43,3.34,2.75,4.35c5.87,4.52,9.81,18.39,4.02,14.61c-5.06-3.3-3,9.75,4.86,12.07
+                c6.43,1.89,8.79,5.58,8.54,12.2c-0.4,10.48,4.04,16.16,14.37,17.8c11.09,1.76,22.2,1.21,32.72-3.48
+                c8.43-3.76,10.36-8.84,7.08-17.35c-2.07-5.35-3.49-10.96-5.62-16.28C374.91,178.98,360.44,177.04,360.78,175.11z"/>
+        </g>
+    </g>
+    <circle class="circle" cx="267.42" cy="136.96" r="16.87"/>
+    <path class="st2" d="M279.42,114.16c0,0,23.39-45.18,65.79-80.39"/>
+    <polyline class="st2" points="277.72,99.25 278.92,114.67 293.98,109.77 "/>
+    <text transform="matrix(1 0 -4.078789e-05 1 339.8521 20.8215)" class="st1 st3 st4">I am here</text>
+    </svg>
+    
+    </div>
+
+</body>
+</html>

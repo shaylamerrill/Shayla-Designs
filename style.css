@@ -1,0 +1,658 @@
+<style>
+
+
+
+
+
+
+        .flex-container {
+          display: flex;
+          align-content: center;
+          width: 100%;
+
+        }
+
+        .flex-container > div {
+          width: auto;
+          height: 60px;
+    
+        }
+        .flex-container2 {
+          display: flex;
+          width: auto;
+          height: 100%;
+         /*background-color: magenta;*/
+        }
+
+        .flex-container3 {
+            display: flex;
+            width: 147%;
+            height: 100%;
+            /*background-color: orangered;*/
+          }
+       
+
+        .nav{
+            background-color: rgba(255, 255, 255, 0.9);
+            height: auto;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            overflow: hidden;
+            position: fixed;
+            top: 0px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            align-items: center;
+            z-index: 3;
+        }
+
+ /*Nav*/ .nav-right{
+            float:right;
+            align-items: right;
+            margin-right: 10%;
+            margin-top: 12px;
+            display: inline-flex;
+        }
+
+/*name*/  .nav-left{
+            float:left;
+            align-items: center;
+            margin-left: 10%;
+            display: inline-flex;
+        }
+
+
+        .name{
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            display:block;
+            /*background-color: grey;*/
+            width: auto;
+            height: 20px;
+            margin-top:12px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+
+        /*nav style*/  .nav a{
+                        text-decoration: none;
+                        color:black; 
+        
+                        }
+     
+
+        .about{
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            display: block;
+           /* background-color: grey;*/
+            width: auto;
+            height: 20px;
+            margin-right: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+
+        .work{
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            display: block;
+           /* background-color: grey;*/
+            width: auto;
+            height: 20px;
+            margin-right: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+
+        .play{
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            display: block;
+            /*background-color: grey;*/
+            width: auto;
+            height: 20px;
+            margin-right: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+
+        .contact{
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            display: block;
+            /*background-color: grey;*/
+            width: auto;
+            height: 20px;
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+          
+          /* visited link */
+          a:visited {
+            color: black;
+          }
+          
+          /* mouse over link */
+          a:hover {
+            color: rgb(142, 187, 70);
+          }
+
+#list {
+    z-index: 3;
+}
+
+.list {
+    color: rgb(96, 133, 235);
+    float: right;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    left: 480px;
+    top: 230px;
+    position: absolute;
+    display: none;
+    line-height: 27px;
+    background-color: rgb(255, 255, 255, .5);
+
+}
+
+
+
+#creative {
+    color: black;
+    margin-left: 10px;
+    height: 25px;
+    display: inline-flex;
+}
+
+#creative:hover {
+    color: rgb(233, 120, 177);
+}
+
+#insightful {
+    color: black;
+    height: 25px;
+    display: block;
+    float: left;
+    margin-top: auto;
+}
+
+#insightful:hover {
+    color: rgb(255, 190, 93);
+}
+#multiskilled {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin-top: auto;
+
+}
+#multiskilled:hover {
+    color: rgb(96, 133, 235);
+}
+
+
+#ampersand {
+    color: black;
+    float:left;
+    display: inline-block;
+    margin-top: auto;
+    margin-left: 10px;
+}
+
+
+
+/* This is where the body contents starts*/
+
+.contents{
+ /*background-color: lightpink;*/
+   height: 650px;
+    margin-left:10%;
+    margin-right: 10%;
+    display: block;
+    margin-top: 90px;
+    z-index: 2;
+
+        }
+
+     
+h1 {   
+height: 27px;    
+font-size: 40px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 400;
+letter-spacing: 2px;
+display: inline-block;
+z-index: 1;
+}
+
+h2 {
+    float: right;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    text-align: right;
+    margin-top: 75px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+h3 {   
+    height: 27px;    
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 130px;
+    }
+
+
+    .location {
+        font-size: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        line-height: 20px;
+        display: inline-block;
+        width: 166px;
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        margin-top: 75px;
+    }
+
+    .contactme {
+    
+       
+        font-size: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 200;
+        line-height: 21px;
+        display: inline-block;
+        width: 300px;
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        margin-top: 100px;
+    }
+
+
+
+
+.wrapper { 
+    display: none;
+    position: absolute;
+    left: 24%;
+    top: 68.5%;
+    width: 35%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+text {
+    fill: #B41F24;
+    animation: animate4 1s;
+    
+    
+
+}
+@keyframes animate4 {
+    0% {
+        fill-opacity: 0;
+    }
+    
+}
+
+circle {
+    fill:none;
+    animation: animate3 .75s;
+    animation-delay: 1.4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: ease-in-out;
+    animation-iteration-count: 1;
+
+}
+@keyframes animate3 {
+    0% {
+        opacity: 0%;}
+    100% {
+        opacity: 100%; fill: #B41F24;}
+}
+
+
+.st2 {
+    stroke: #B41F24;
+    stroke-dasharray: 1200;
+    animation: animate2 1.5s;
+    
+}
+@keyframes animate2 {
+    0% {
+        stroke-dashoffset: -1200;
+    }
+}
+   
+.st0 {
+    stroke: #233D7B ;
+    stroke-dasharray: 1800;
+    animation: animate 1.7s cubic-bezier(.17,.67,.83,.67)
+
+}
+@keyframes animate {
+    0% {
+        stroke-dashoffset: 1800;}
+}
+
+
+
+
+
+
+.hand {
+    width: 100%;
+    font-size: 40px;
+    float: right;
+    color: rgb(124, 124, 124);
+    text-align: center;
+    margin-top: 30px;
+    height: auto;
+    position: relative;
+    animation-name: hand;
+    animation-duration: 1.2s;
+    transition: ease;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes hand {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:0px;}
+  50%  {left:0px; top:10px;}
+  75%  {left:0px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+
+/* this is where the recent work starts*/
+
+.recentwork {
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    display: inline;
+    text-decoration: none;
+    color: black;
+    margin-left: 10%;
+
+    margin-top: 40px;
+}
+
+
+.images {
+    width: 45%;
+    margin-left: 10%;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: inline;
+    float: left;
+}
+
+.workdesc {
+    width: 300px;
+    height: auto;
+    display: inline;
+    float: left;
+    left: 10%;
+   
+
+}
+
+.titles {
+    width: 80%;
+    height: 30px;
+    margin-top: 90px;
+    align-content: center;
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    color: black;
+    right:10%
+}
+
+.descriptions {
+    width: auto;
+    height: 100px;
+    align-content: center;
+    vertical-align: top;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    display: block;
+
+    color: black;
+
+}
+
+.insight { 
+    /*display: none;*/
+    position: absolute;
+    left: 880px;
+    top: 230px;
+    width: 22%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+  
+    
+  /*light*/
+.cls-4 {
+    stroke-dasharray: 800;
+    animation: animate12 .5s;
+    animation-delay: .75s;
+    fill:none;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: ease-in-out;
+    animation-iteration-count: 1; 
+    
+}
+
+@keyframes animate12 {
+    0% {
+        stroke-dasharray: 600;
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+        fill:#feee47;
+ }
+    
+}
+
+  /*bulb fill*/
+  .cls-3 { 
+    fill:none;
+    animation: animate13 .75s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: ease-in-out;
+    animation-iteration-count: 1;
+
+}
+@keyframes animate13 {
+    0% {
+        opacity: 0%;}
+    100% {
+        opacity: 100%; fill: #ffffd8;}
+}
+
+
+  /*bulb*/
+.cls-2 {
+    
+    stroke-dasharray: 800;
+    animation: animate12 1s;
+    
+}
+@keyframes animate12 {
+    0% {
+        stroke-dashoffset: 800;
+    }
+}
+
+  /*brain*/
+.cls-1 {
+    stroke-dasharray: 600;
+    animation: animate12 1.5s;
+    
+}
+@keyframes animate12 {
+    0% {
+        stroke-dashoffset: -800;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+    .contactme{
+       display: block;
+       float: left;
+       top: 260px;
+       font-size: 14px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .location{
+       display: block;
+       float: left;
+       top: 260px;
+       font-size: 14px;
+       pointer-events: none;
+    }
+
+}
+
+@media (max-width: 400px) {
+    h2{
+       display: block;
+       float: right;
+       top: 50px;
+       font-size: 25px ;
+       font-weight: 300;
+    }
+
+}
+
+@media (max-width: 400px) {
+    h1{
+       display: inline-block;
+       font-size: 35px ;
+       line-height: 50px;
+       top: 0;
+       margin-top: -20px;
+    }
+
+
+}
+@media (max-width: 400px) {
+    h3{
+        display: inline-block;
+        font-size: 35px;
+        line-height: 50px;
+        margin-top: -25px;
+
+    }
+
+}
+
+@media (max-width: 400px) {
+    #creative{
+        display: inline-block;
+        font-size: 35px;
+        line-height: 50px;
+        margin: 0;
+        margin-top: -8px;
+        color: rgb(233, 120, 177);
+        }
+    
+    }
+
+
+
+@media (max-width: 400px) {
+    #insightful{
+        display: inline-block;
+        font-size: 35px;
+        line-height: 50px;
+        margin: 0;
+        color: rgb(255, 190, 93);
+        }
+    
+    }
+@media (max-width: 400px) {
+        #multiskilled{
+            display: inline-block;
+            font-size: 35px;
+            line-height: 50px;
+            margin: 0;
+            margin-left: 0;
+            color: rgb(96, 133, 235);
+            }
+        
+        }
+
+    @media (max-width: 400px) {
+        .contents {
+            margin-top: 80px;  }
+    
+    }
+
+@media (max-width: 400px) {
+    .nav-right {
+        display: none;
+    }
+}  
+
+@media (max-width: 400px) {
+    .hand {
+        display: none;
+    }
+} 
+
+
+
+      </style>
