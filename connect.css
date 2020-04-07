@@ -146,9 +146,6 @@
           }
 
 
-body {
-    background-color:rgb(255, 255, 255);
-}
 
 /*_____________________________________________*/
 
@@ -158,8 +155,8 @@ body {
 	max-width:450px;
   width:100%; 
   margin-left: 10%;
-  margin-top: 90px;
   position:relative;
+  margin-top: 150px;
 }
 
 .youcan {
