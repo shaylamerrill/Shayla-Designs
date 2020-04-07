@@ -152,20 +152,6 @@ body {
 
 /*_____________________________________________*/
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
-
-
-* { 
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	-moz-font-smoothing:antialiased;
-	-o-font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
-}
 
 
 .container {
@@ -174,17 +160,14 @@ body {
   margin-left: 10%;
   margin-top: 90px;
   position:relative;
-
-
-  
 }
 
 .youcan {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   font-weight: 500;
 }
 
-h3 {
+h1 {
 	color: black;
 	display: block;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -194,12 +177,12 @@ h3 {
   margin-left: -3px;
 }
 
-h4 {
+h2 {
 	display:block;
   color: rgb(0, 0, 0);
 	font-size: 18px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 12px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
