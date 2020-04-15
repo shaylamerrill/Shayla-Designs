@@ -773,6 +773,7 @@ circle {
 #recentworks {
     padding-top:10px;
     margin-top:80px;
+    align-content: center;
 }
 
 
@@ -821,7 +822,6 @@ circle {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 60px;
-  
   }
   
   #work .col-md-6 {
