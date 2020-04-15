@@ -781,6 +781,7 @@ circle {
         width: 100%;
         align-items: center;
         z-index: 3;
+        text-align:center;
     }
 
 .copyright {
