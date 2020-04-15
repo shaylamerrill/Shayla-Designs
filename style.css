@@ -221,7 +221,7 @@
 
 .contents{
  /*background-color: lightpink;*/
-   height: 650px;
+   height: 600px;
     margin-left:10%;
     margin-right: 10%;
     display: block;
@@ -361,9 +361,11 @@ circle {
 }
 
 
-
-
-
+/*
+.landing {
+    background-color: hotpink;
+}
+*/
 
 .hand {
     width: 100%;
@@ -400,7 +402,6 @@ circle {
     text-decoration: none;
     color: black;
     margin-left: 10%;
-
     margin-top: 40px;
 }
 
