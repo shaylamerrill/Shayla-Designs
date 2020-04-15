@@ -706,15 +706,15 @@ circle {
     margin-left: 8%;
     margin-right: 8%;
     border-style: inset;
-    border-width: 1px;
+    border-width: .5px;
+    border-color: rgba(0, 0, 0, 0.144);
   } 
   
   
   /* contact me starts here*/
    
             /* visited link */
-            a {color: black;
-            font-style: ;
+            a {color: black;            
             }
             a:visited {
               color: black;
@@ -733,7 +733,7 @@ circle {
     margin-left: 10%;
     position:relative;
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   
   .youcan {
@@ -768,11 +768,28 @@ circle {
   
 
 
+.footer {
+        background-color: rgba(255, 255, 255, 0.9);
+        height: 40px;
+        margin-bottom: 10px;
+        padding-bottom: 45px;
+        overflow: hidden;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        align-items: center;
+        z-index: 3;
+    }
 
+.copyright {
+    text-align: center;
+    font-size:10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top:20px;
+    -bottom: 50px;
 
-
-
-
+}
 
 
 
