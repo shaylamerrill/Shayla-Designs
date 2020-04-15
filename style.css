@@ -713,7 +713,7 @@ circle {
   }
  
 
-  #about .col-md-6 {
+  #about .col-md-5 {
     padding: 0;
     font-size: 18px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -746,13 +746,26 @@ circle {
   }
   
   .aboutrow {
- 
-    margin-top: 30px;
-    margin-bottom: 80px;
-    height:500px;
+    margin-bottom: 20px;
+    height:400px;
   }
   
+  #aboutmee {
+    padding-top:10px;
+    margin-top:80px;
+}
 
+
+.aboutme {
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-left: 10%;
+
+  }
 
 
 /* recent work & contact */
@@ -883,11 +896,11 @@ circle {
   
   
   #containercontact {
-      max-width:450px;
+    max-width:450px;
     width:100%; 
     margin-left: 10%;
     position:relative;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 100px;
   }
   
@@ -902,26 +915,26 @@ circle {
   }
   
   .connectwm {
-      color: black;
-      display: block;
+    color: black;
+    display: block;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-size: 30px;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 35px;
     margin-left: -3px;
   }
   
   .contactinfo {
-      display:block;
+    display:block;
     color: rgb(0, 0, 0);
-      font-size: 18px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   
-
+/* Footer */
 
 .footer {
         background-color: rgba(255, 255, 255, 0.9);
