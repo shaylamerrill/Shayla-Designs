@@ -228,6 +228,89 @@ body {
 
 
 
+
+
+
+/*circles*/
+
+
+.circles {
+	display: block;
+	float: right;
+}
+
+#circlescontainer {
+	width: 525px;
+	height:300px;
+	position:absolute;
+	right: 0;
+	z-index:4;
+    top:45px;
+    margin-right:10%;
+
+}
+#circle1 {
+	position: relative;
+}
+
+#circle2 {
+	position:relative;
+}
+
+#circle3 {
+	position:relative;
+}
+
+#circle4 {
+	position:relative;
+}
+
+#circle5 {
+	position:relative;
+}
+
+#circle6 {
+	position:relative;
+}
+#circle7 {
+	position:relative;
+}
+
+#circle8 {
+	position:relative;
+}
+
+#circle9 {
+	position:relative;
+}
+
+#circle10 {
+	position:relative;
+}
+
+#circle11 {
+	position:relative;
+}
+
+#circle12 {
+	position:relative;
+}
+
+#circle13 {
+	position:relative;
+}
+
+#circle14 {
+	position:relative;
+}
+
+#circle15 {
+	position:relative;
+}
+
+
+
+
 /* This is where the body contents starts*/
 
 .contents{
@@ -307,11 +390,11 @@ h3 {
 
 
 .wrapper { 
-    display: none;
+    display:none;
     position: absolute;
     left: 23%;
     top: 66%;
-    width: 35%;
+    width: 33%;
     transform: translate(-50%, -50%);
     z-index: -1;
 }
@@ -340,6 +423,7 @@ circle {
     animation-iteration-count: 1;
 
 }
+
 @keyframes animate3 {
     0% {
         opacity: 0%;}
@@ -372,11 +456,7 @@ circle {
 }
 
 
-/*
-.landing {
-    background-color: hotpink;
-}
-*/
+
 
 .hand {
     width: 100%;
@@ -602,6 +682,9 @@ circle {
         display: none;
     }
 } 
+
+
+
 
 
 
