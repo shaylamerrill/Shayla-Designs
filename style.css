@@ -682,7 +682,7 @@ circle {
     }
 } 
 
-
+/*
 .circlescover {
     background-color:white;
     width:260px;
@@ -694,6 +694,64 @@ circle {
     position:absolute;
     top:41px;
 }
+*/
+
+
+  
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+  }
+  
+  #about .aboutcontainer {
+  
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 60px;
+  
+  }
+ 
+
+  #about .col-md-6 {
+    padding: 0;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    color: black;
+    float:right;
+   
+  }
+  
+  .abouttitle{
+    float:right;
+    padding-right: 50px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: black;
+    align-content: center;
+    display:block;
+    width: 50%;
+    text-align:right;
+    margin-bottom:20px;
+  }
+  
+  .aboutdesc {
+    float:right;
+    padding-right: 50px;
+    width: 100%;
+    margin-top: 0;
+    text-align:right;
+  }
+  
+  .aboutrow {
+ 
+    margin-top: 30px;
+    margin-bottom: 80px;
+    height:500px;
+  }
+  
 
 
 
@@ -701,6 +759,7 @@ circle {
 
 #recentworks {
     padding-top:10px;
+    margin-top:80px;
 }
 
 
@@ -712,7 +771,7 @@ circle {
     text-decoration: none;
     color: black;
     margin-left: 10%;
-    margin-top: 50px;
+
   }
   
   
@@ -804,6 +863,8 @@ circle {
     border-color: rgba(0, 0, 0, 0.144);
   } 
   
+
+
   
   /* contact me starts here*/
    
@@ -821,7 +882,7 @@ circle {
             }
   
   
-  .containercontact {
+  #containercontact {
       max-width:450px;
     width:100%; 
     margin-left: 10%;
