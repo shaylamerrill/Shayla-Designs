@@ -127,10 +127,9 @@ jQuery(function($) {
 
 });
 
-/* circles end */
 
 
-
+/* Multiskilled */
 
 
 $(document).ready(function(){
@@ -144,7 +143,9 @@ $(document).ready(function(){
       $(".list").hide(300);
     });
   });
-  
+
+
+  /* Location */
   
   $(document).ready(function(){
     $(".location").mouseenter(function(){
@@ -157,3 +158,30 @@ $(document).ready(function(){
       $(".wrapper").hide(300);
     });
   });
+
+
+
+/* Insightful*/
+  
+  $(document).ready(function(){
+    $("#insightful").mouseenter(function(){
+      $(".insight").show(550);
+    });
+  });
+  
+  $(document).ready(function(){
+    $("#insightful").mouseleave(function(){
+      $(".insight").hide(550);
+    });
+  });
+
+
+  /* creative*/
+  
+  $(document).ready(function(){
+    $("#creative").mouseenter(function(){
+      $(".circlescover").hide(550);
+    });
+  });
+  
+ 

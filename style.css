@@ -402,10 +402,9 @@ h3 {
 text {
     fill: #B41F24;
     animation: animate4 1s;
-    
-    
 
 }
+
 @keyframes animate4 {
     0% {
         fill-opacity: 0;
@@ -428,7 +427,8 @@ circle {
     0% {
         opacity: 0%;}
     100% {
-        opacity: 100%; fill: #B41F24;}
+        opacity: 100%; 
+        fill: #B41F24;}
 }
 
 
@@ -483,52 +483,54 @@ circle {
 }
 
 
-
-
-
 .insight { 
-    /*display: none;*/
     position: absolute;
-    left: 880px;
-    top: 230px;
-    width: 22%;
+    left: 820px;
+    top: 237px;
     transform: translate(-50%, -50%);
     z-index: -1;
+    width:270px;
+    display:none;
 }
 
   
     
   /*light*/
 .cls-4 {
-    stroke-dasharray: 800;
-    animation: animate12 .5s;
-    animation-delay: .75s;
-    fill:none;
-    animation-iteration-count: 1;
+    opacity:0%;
+    animation: animation-name .25s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
     transition: ease-in-out;
-    animation-iteration-count: 1; 
+    animation-iteration-count: 1;
+    
+  
+     
     
 }
 
-@keyframes animate12 {
+@keyframes animation-name {
     0% {
-        stroke-dasharray: 600;
-        opacity: 0%;
-    }
+        opacity:0%;}
+    
 
     100% {
-        opacity: 100%;
-        fill:#feee47;
- }
+        opacity:100%;
+        fill:#feef47;
+        
+
+    }
     
 }
+
+
+
 
   /*bulb fill*/
   .cls-3 { 
     fill:none;
-    animation: animate13 .75s;
-    animation-delay: 1s;
+    animation: animate13 .5s;
+    animation-delay: .75s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     transition: ease-in-out;
@@ -547,19 +549,21 @@ circle {
 .cls-2 {
     
     stroke-dasharray: 800;
-    animation: animate12 1s;
+    animation: animate12 1.2s;
+    
     
 }
 @keyframes animate12 {
     0% {
         stroke-dashoffset: 800;
+        fill:#feee47;
     }
 }
 
   /*brain*/
 .cls-1 {
     stroke-dasharray: 600;
-    animation: animate12 1.5s;
+    animation: animate12 1.1s;
     
 }
 @keyframes animate12 {
@@ -567,11 +571,6 @@ circle {
         stroke-dashoffset: -800;
     }
 }
-
-
-
-
-
 
 
 
@@ -684,13 +683,25 @@ circle {
 } 
 
 
-
+.circlescover {
+    background-color:white;
+    width:260px;
+    height:30px;
+    z-index:5;
+    right:0;
+    margin-right:9.75%;
+    display:block;
+    position:absolute;
+    top:41px;
+}
 
 
 
 /* recent work & contact */
 
-
+#recentworks {
+    padding-top:10px;
+}
 
 
 .recentwork {
