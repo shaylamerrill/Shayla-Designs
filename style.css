@@ -682,6 +682,13 @@ circle {
     }
 } 
 
+@media (max-width: 1030px) {
+  #circlescontainer {
+      display: none;
+  }
+} 
+
+
 /*
 .circlescover {
     background-color:white;
