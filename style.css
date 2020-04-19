@@ -10,7 +10,8 @@
 /*body*/
 
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+
 }
 
         .flex-container {
@@ -242,13 +243,15 @@ body {
 #circlescontainer {
 	width: 525px;
 	height:300px;
-	position:absolute;
+	position:fixed;
 	right: 0;
 	z-index:4;
-    top:45px;
-    margin-right:10%;
+  top:45px;
+  margin-right:10%;
 
 }
+
+
 #circle1 {
 	position: relative;
 }
@@ -485,11 +488,11 @@ circle {
 
 .insight { 
     position: absolute;
-    left: 68%;
+    left: 65%;
     top: 237px;
     transform: translate(-50%, -50%);
     z-index: -1;
-    width:270px;
+    width: 18%;
     display:none;
 }
 
@@ -707,15 +710,14 @@ circle {
   
 #about {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   
   }
   
   #about .aboutcontainer {
-  
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
   
   }
  
@@ -732,21 +734,21 @@ circle {
   
   .abouttitle{
     float:right;
-    padding-right: 50px;
+    padding-right: 20%;
     font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     color: black;
-    align-content: center;
     display:block;
-    width: 50%;
+    width: 100%;
     text-align:right;
     margin-bottom:20px;
+    margin-top: 5%;
   }
   
   .aboutdesc {
     float:right;
-    padding-right: 50px;
+    padding-right: 20%;
     width: 100%;
     margin-top: 0;
     text-align:right;
@@ -758,8 +760,8 @@ circle {
   }
   
   #aboutmee {
-    padding-top:10px;
     margin-top:80px;
+ 
 }
 
 
@@ -772,13 +774,14 @@ circle {
     color: black;
     margin-left: 10%;
 
+
   }
 
 
 /* recent work & contact */
 
 #recentworks {
-    padding-top:10px;
+    
     margin-top:80px;
     align-content: center;
 }
@@ -792,6 +795,7 @@ circle {
     text-decoration: none;
     color: black;
     margin-left: 10%;
+    margin-bottom: 50px;
 
   }
   
@@ -825,7 +829,6 @@ circle {
   }
   
   #work .container {
-  
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 60px;
@@ -839,7 +842,6 @@ circle {
     font-weight: 200;
     color: black;
     vertical-align: middle;
-   
   }
 
   #work .col-md-10 {
@@ -849,6 +851,7 @@ circle {
 
   #work img{
     width: auto;
+    
     
   }
 
@@ -874,7 +877,7 @@ circle {
     padding-left: 15%;
     width: 100%;
     margin-top: 0;
-    width: auto;
+    width: 100%;
   }
   
   .row {
@@ -944,8 +947,7 @@ circle {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
     font-weight: 500;
-    margin-bottom: 35px;
-    margin-left: -3px;
+    margin-bottom: 50px;
   }
   
   .contactinfo {
@@ -990,8 +992,9 @@ circle {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top:20px;
 
-
 }
 
-
+img {
+  pointer-events: none;
+}
 

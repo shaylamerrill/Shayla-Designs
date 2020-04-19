@@ -185,3 +185,18 @@ $(document).ready(function(){
   });
   
  
+
+
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+      document.getElementById("circlescontainer").style.height = "80px";
+      document.getElementById("circlescontainer").style.width = "800px";
+      document.getElementById("circlescontainer").style.background = "none";
+    } else {
+      document.getElementById("circlescontainer").style.height = "300px";
+      document.getElementById("circlescontainer").style.width = "525px";
+      document.getElementById("circlescontainer").style.background = "none";
+    }
+  }
