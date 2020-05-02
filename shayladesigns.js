@@ -190,13 +190,12 @@ $(document).ready(function(){
   window.onscroll = function() {scrollFunction()};
 
   function scrollFunction() {
-    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-      document.getElementById("circlescontainer").style.height = "80px";
-      document.getElementById("circlescontainer").style.width = "800px";
-      document.getElementById("circlescontainer").style.background = "none";
+    if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+      document.getElementById("circlescontainer").style.display = "none";
+
     } else {
       document.getElementById("circlescontainer").style.height = "300px";
       document.getElementById("circlescontainer").style.width = "525px";
-      document.getElementById("circlescontainer").style.background = "none";
+      document.getElementById("circlescontainer").style.display = "block";
     }
   }
