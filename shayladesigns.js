@@ -82,48 +82,7 @@ jQuery(function($) {
            nextY = Math.floor(Math.random() * ($(this).parent().height() - $(this).height() - 1) + 1);
        $(this).animate({ right: nextX + 'px', top: nextY + 'px' });
    });
-
-   $('#circle11').mouseover(function() {
-       //var dWidth = $(document).width() - 100, // 100 = image width
-           //dHeight = $(document).height() - 100, // 100 = image height
-        var nextX = Math.floor(Math.random() * ($(this).parent().width() - $(this).width() + 1) + 1),
-           nextY = Math.floor(Math.random() * ($(this).parent().height() - $(this).height() - 1) + 1);
-       $(this).animate({ right: nextX + 'px', top: nextY + 'px' });
-   });
-
-   $('#circle12').mouseover(function() {
-       //var dWidth = $(document).width() - 100, // 100 = image width
-           //dHeight = $(document).height() - 100, // 100 = image height
-        var nextX = Math.floor(Math.random() * ($(this).parent().width() - $(this).width() + 1) + 1),
-           nextY = Math.floor(Math.random() * ($(this).parent().height() - $(this).height() - 1) + 1);
-       $(this).animate({ right: nextX + 'px', top: nextY + 'px' });
-   });
-
-        $('#circle13').mouseover(function() {
-       //var dWidth = $(document).width() - 100, // 100 = image width
-           //dHeight = $(document).height() - 100, // 100 = image height
-        var nextX = Math.floor(Math.random() * ($(this).parent().width() - $(this).width() + 1) + 1),
-           nextY = Math.floor(Math.random() * ($(this).parent().height() - $(this).height() - 1) + 1);
-       $(this).animate({ right: nextX + 'px', top: nextY + 'px' });
-   });
-
-   $('#circle14').mouseover(function() {
-       //var dWidth = $(document).width() - 100, // 100 = image width
-           //dHeight = $(document).height() - 100, // 100 = image height
-        var nextX = Math.floor(Math.random() * ($(this).parent().width() - $(this).width() + 1) + 1),
-           nextY = Math.floor(Math.random() * ($(this).parent().height() - $(this).height() - 1) + 1);
-       $(this).animate({ right: nextX + 'px', top: nextY + 'px' });
-   });
-
-   $('#circle15').mouseover(function() {
-       //var dWidth = $(document).width() - 100, // 100 = image width
-           //dHeight = $(document).height() - 100, // 100 = image height
-        var nextX = Math.floor(Math.random() * ($(this).parent().width() - $(this).width() + 1) + 1),
-           nextY = Math.floor(Math.random() * ($(this).parent().height() - $(this).height() - 1) + 1);
-       $(this).animate({ right: nextX + 'px', top: nextY + 'px' });
-   });
-
-});
+  });
 
 });
 
@@ -199,3 +158,17 @@ $(document).ready(function(){
       document.getElementById("circlescontainer").style.display = "block";
     }
   }
+
+
+
+  $(document).ready(function(){
+    $("#creative").mouseenter(function(){
+      $(".hover_circles").show(300);
+    });
+  });
+  
+  $(document).ready(function(){
+    $("#creative").mouseleave(function(){
+      $(".hover_circles").hide(300);
+    });
+  });

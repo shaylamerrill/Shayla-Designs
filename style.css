@@ -164,7 +164,7 @@ body {
     font-weight: 400;
     text-align: left;
     left: 480px;
-    top: 232px;
+    top: 225px;
     position: absolute;
     display: none;
     line-height: 25px;
@@ -177,8 +177,10 @@ body {
 #creative {
     color: black;
     margin-left: 10px;
-    height: 25px;
     display: inline-flex;
+    border-bottom: dotted;
+    border-width: .1em;
+    border-color:  rgb(233, 120, 177);
 }
 
 #creative:hover {
@@ -187,10 +189,13 @@ body {
 
 #insightful {
     color: black;
-    height: 25px;
     display: block;
     float: left;
     margin-top: auto;
+    border-bottom: dotted;
+    border-width: .1em;
+    border-color:  rgb(255, 190, 93);
+  
 }
 
 #insightful:hover {
@@ -200,12 +205,14 @@ body {
     color: black;
     margin-left: 10px;
     margin-right: 10px;
-    height: 25px;
     display: inline-block;
     float: left;
     margin-top: auto;
-
+    border-bottom: dotted;
+    border-width: .1em;
+    border-color:  rgb(96, 133, 235);
 }
+
 #multiskilled:hover {
     color: rgb(96, 133, 235);
 }
@@ -332,6 +339,7 @@ color: black;
 }
 
 
+
 .ilove {
     float: right;
     font-size: 3.75vmin;
@@ -348,13 +356,13 @@ color: black;
 
 
 h3 {   
-    height: 27px;    
+    
     font-size: 6vmin;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
-    margin-top: 10px;
-    margin-bottom: 130px;
+    top: 25%;
+    margin-bottom: 75px;
     color: black;
     }
 
@@ -786,8 +794,7 @@ circle {
   
   
   #containercontact {
-    width:450px;
-    width:100%; 
+    width:auto;
     margin-left: 10%;
     position:relative;
     margin-top: 80px;
@@ -802,6 +809,7 @@ circle {
     font-weight: 500;
     line-height: 2vmin;
     margin-bottom: 25px;
+    width: auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
@@ -812,6 +820,8 @@ circle {
     font-size: 5vmin;
     font-weight: 500;
     margin-bottom: 50px;
+    width: auto;
+    border-bottom: none;
   }
   
   .contactinfo {
@@ -820,6 +830,7 @@ circle {
     font-size: 2.5vmin;
     font-weight: 300;
     line-height: 2vmin;
+    width: auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
@@ -958,3 +969,31 @@ img {
    
   }
 }
+
+
+.hover_circles {
+  width:200px;
+  height: auto;
+  font-size: 6.5vmin;
+  position: absolute;
+  margin-top: 60px;
+  padding-right: 71%;
+  text-align: center;
+  float: left;
+  color: rgb(233, 120, 177, 0.7);
+  animation-name: hover_circles;
+  animation-duration:1.5s;
+  transition: ease;
+  animation-iteration-count: 2;
+  animation-fill-mode: forwards;
+  transform: rotate(180deg);
+  z-index: 3;
+  display: none;
+
+}
+
+@keyframes hover_circles{
+0%   {left:0px; top:0px; opacity: 0%;}
+100% {left:250px; top:0px;opacity: 100%;}
+}
+
