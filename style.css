@@ -930,7 +930,7 @@ img {
   }
 }
 
-}@media (max-width: 378px) {
+@media (max-width: 378px) {
   .replace {
           visibility: visible;
           font-size: 5vmin;
